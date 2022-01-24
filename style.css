@@ -240,12 +240,13 @@ input[type="text"], textarea {
 
 button[type="submit"] {
     box-sizing: border-box;
-    border: 1px solid #600602;
     width: 250px;
     padding: 5px;
-    border-radius: 10px;
-    background-color: #600602;
     color: cornsilk;
+    background-color: #600602;
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,.75);
+    border: 1px solid #600602;
+    border-radius: 10px
 }
 
 button[type="submit"]:hover {
