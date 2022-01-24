@@ -158,3 +158,25 @@ thead {
 tbody tr:nth-child(odd) {
     background-color: salmon;
 }
+
+input[type="text"], textarea {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #600602;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    box-sizing: border-box;
+    border: 1px solid #600602;
+    width: 200px;
+    padding: 5px;
+    background-color: #600602;
+    color: cornsilk;
+}
+
+button[type="submit"]:hover {
+    background-color: #693B36;
+}
