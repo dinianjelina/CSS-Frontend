@@ -76,7 +76,7 @@ body {
 }
 
 .portofolio {
-    width: 960px;
+    max-width: 960px;
     margin: 80px auto;
     border: 2px solid #600602;
     box-sizing: border-box;
@@ -128,6 +128,13 @@ body {
     top: 60%;
     left: 40%;
     text-shadow: 2px 2px 2px #FB5443;
+    transition: 3s;
+}
+
+.hero h1:hover {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
 }
 
 .hero h3 {
@@ -145,7 +152,6 @@ body {
     padding: 20px;
     padding-top: 0px;
     box-sizing: border-box;
-    float: left;
 }
 
 .content .main h3{
@@ -203,7 +209,6 @@ tbody tr:nth-child(odd) {
 
 .sidebar {
     width: 300px;
-    float: right;
     padding: 20px;
     padding-top: 0px;
     box-sizing: border-box;
@@ -226,6 +231,7 @@ tbody tr:nth-child(odd) {
 }
 
 .sidebar img:hover {
+    -webkit-transform: scale(2);
     -ms-transform: scale(2);
     transform: scale(2);
 }
@@ -268,6 +274,17 @@ button[type="submit"]:hover {
     color: floralwhite;
     text-align: center;
     padding: 10px;
+}
+
+/* Responsive */
+@media( min-width: 600px ) {
+    .content .main {
+        float: left;
+    }
+
+    .sidebar {
+        float: right;
+    }
 }
 
 /* clearfix */
