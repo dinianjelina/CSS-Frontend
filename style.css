@@ -222,6 +222,12 @@ tbody tr:nth-child(odd) {
     width: 70px;
     float: left;
     padding-right: 10px;
+    transition: 3s;
+}
+
+.sidebar img:hover {
+    -ms-transform: scale(2);
+    transform: scale(2);
 }
 
 .sidebar p {
