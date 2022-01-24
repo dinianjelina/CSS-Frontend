@@ -180,3 +180,13 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #693B36;
 }
+
+.footer {
+    background-color: #600602;
+}
+
+.footer .copy {
+    color: floralwhite;
+    text-align: center;
+    padding: 10px;
+}
