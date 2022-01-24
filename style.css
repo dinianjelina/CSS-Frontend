@@ -131,3 +131,30 @@ body {
     margin-left: 20px;
 }
 
+.table1 {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table1, th, td {
+    border: 1px solid #600602 ;
+    padding: 3px 10px;
+}
+
+.table1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.table1 a:hover {
+    background-color: #089895;
+    color: floralwhite;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: salmon;
+}
