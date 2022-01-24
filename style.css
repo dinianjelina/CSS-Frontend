@@ -91,3 +91,12 @@ body {
     background-color: blueviolet;
     color: cornsilk;
 }
+
+.hero {
+    height: 450px;
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid #600602;
+    border-bottom: 5px solid #DF2B22;
+}
