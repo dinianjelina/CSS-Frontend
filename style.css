@@ -127,6 +127,7 @@ body {
     position: absolute;
     top: 60%;
     left: 40%;
+    text-shadow: 2px 2px 2px #FB5443;
 }
 
 .hero h3 {
